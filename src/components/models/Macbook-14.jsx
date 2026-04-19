@@ -12,7 +12,6 @@ import { useGLTF } from '@react-three/drei'
 import { useTexture } from '@react-three/drei'
 import { noChangeParts } from '../../constants';
 import * as THREE from 'three';
-import gsap from 'gsap';
 
 export function Macbook14Model(props) {
   const { nodes, materials, scene } = useGLTF('/models/macbook-14-transformed.glb')
