@@ -10,16 +10,21 @@ const Hero = () => {
     useGSAP(() => {
         ScrollTrigger.create({
             trigger: videoRef.current,
-            start: "top bottom",
+            start: "top center",
             end: "bottom top",
             scrub: true,
-            // markers: true,
             onEnter: () => {
+                videoRef.current?.play();
+            },
+            onLeaveBack: () => {
+                videoRef.current?.pause();
+            },
+            onEnterBack: () => {
                 videoRef.current?.play();
             },
             onLeave: () => {
                 videoRef.current?.pause();
-            }
+            },
         });
     });
 

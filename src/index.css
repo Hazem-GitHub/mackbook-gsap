@@ -190,26 +190,26 @@ body {
   }
 
   #product-viewer {
-    @apply container relative min-h-[93vh] mx-auto px-5 mt-40;
+    @apply container relative min-h-[95vh] mx-auto px-5 mt-60;
     @variant 2xl {
       @apply px-0;
     }
 
     h2 {
-      @apply text-white font-semibold text-3xl;
+      @apply text-white font-semibold text-5xl;
 
       @variant lg {
-        @apply text-6xl;
+        @apply text-8xl;
       }
     }
 
     .controls {
-      @apply absolute z-50 bottom-40 left-1/2 -translate-x-1/2;
+      @apply absolute z-50 bottom-20 left-1/2 -translate-x-1/2;
       @variant lg {
-        @apply bottom-40;
+        @apply bottom-20;
       }
       @variant 2xl {
-        @apply bottom-52;
+        @apply bottom-32;
       }
 
       .info {
