@@ -22,7 +22,7 @@ const Highlights = () => {
             duration: 2,
             ease: 'power1.inOut'
         });
-    })
+    }, { dependencies: [isMobile] , revertOnUpdate: true})
 
     return (
         <section id="highlights">
