@@ -42,7 +42,7 @@ The landing page highlights a MacBook-style product with:
 
 - **React / Next.js**
 - **GSAP (GreenSock Animation Platform)**
-- **Three.js / React Three Fiber** _(if applicable)_
+- **Three.js / React Three Fiber**
 - **Tailwind CSS / CSS Modules**
 - **Vercel (Deployment)**
 
