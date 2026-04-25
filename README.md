@@ -1,4 +1,4 @@
-# ![Project Screenshot](./public/logo.svg) MacBook GSAP Interactive Landing Page
+# ![Project Screenshot](./public/logo-dark.svg) MacBook GSAP Interactive Landing Page
 
 An immersive, Apple-inspired interactive landing page built with modern frontend technologies, focusing on **scroll-driven storytelling**, **smooth animations**, and **high-performance UI rendering**.
 
