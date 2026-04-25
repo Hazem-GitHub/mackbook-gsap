@@ -70,6 +70,7 @@ The project is structured around a **component-driven architecture**, where each
 
 ## 📂 Project Structure
 
+```text
 src/
 │
 ├── components/ # Reusable UI components
@@ -78,6 +79,7 @@ src/
 ├── hooks/ # Custom hooks (e.g., useScrollAnimation)
 ├── styles/ # Global and modular styles
 └── pages/ or app/ # Next.js routing
+```
 
 ---
 
